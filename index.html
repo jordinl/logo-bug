@@ -1,0 +1,29 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="utils.js"></script>
+</head>
+<body>
+<div>
+    Number of SVGs:
+
+    <select name="logos-select" class="logos-select"></select>
+</div>
+<script type="text/javascript">
+    var logosSelect = document.querySelector('select[name="logos-select"]');
+
+    for (var i = 1; i <= 42; i++) {
+      var option = createElement("option", { value: i, selected: i === 3 });
+      option.innerText = i;
+      logosSelect.appendChild(option);
+    }
+
+    logosSelect.addEventListener("change", function (e) {
+      var logosCount = parseInt(e.target.value);
+      addLogos(Array(logosCount - 1).fill("square.svg").concat("aqua-security-member.svg"));
+    })
+
+  addLogos(Array(2).fill("square.svg").concat("aqua-security-member.svg"));
+</script>
+</body>
+</html>

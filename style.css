@@ -1,0 +1,29 @@
+body {
+    width: 1224px;
+}
+
+.outer {
+    width: 204px;
+    height: 120px;
+    float: left;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.inner {
+    background-color: #FFEFD5;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+}
+
+.inner img,
+.inner svg {
+    max-width: 200px;
+    max-height: 100px;
+}
+
+.logos-select {
+    margin-bottom: 5px;
+}
