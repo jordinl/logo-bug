@@ -6,7 +6,7 @@ The logo is:
 
 <img src="logos/aqua-security-member.svg" width="250" />
 
-Demo: https://jordinl83.github.io/logo-bug/index.html
+Demo: https://jordinl83.github.io/logo-bug
 
 ## In Chrome the logo does not show depending on the position:
 
@@ -35,3 +35,7 @@ Demo: https://jordinl83.github.io/logo-bug/index.html
 ## In MS Edge the logo is rendered correctly:
 
 <img src="screenshots/edge.png" alt="edge"/>
+
+## In Chrome logo appears and disappears when resizing window:
+
+<img src="screenshots/resize.gif" alt="resize"/>
