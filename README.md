@@ -39,3 +39,9 @@ Demo: https://jordinl83.github.io/logo-bug
 ## In Chrome logo appears and disappears when resizing window:
 
 <img src="screenshots/resize.gif" alt="resize"/>
+
+## Update (2019-10-10)
+
+Added simplified version of SVG that has rendering issues on Chrome:
+
+<img src="logos/broken.svg" width="250" />
