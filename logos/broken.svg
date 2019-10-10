@@ -1,9 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 200">
-  <defs>
-    <path id="a" d="m 0 -0.1 h 400 v 200 h -400 v -200 z"/>
-  </defs>
-  <clipPath id="b">
-    <use overflow="visible" xlink:href="#a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <clipPath id="a">
+    <path d="m 0 -0.1 h 400 v 200 h -400 v -200 z"/>
   </clipPath>
-  <path fill="blue" d="m 0 0 h 400 v 200 h -400 z" clip-path="url(#b)"/>
+  <path fill="blue" d="m 0 0 h 400 v 200 h -400 z" clip-path="url(#a)"/>
 </svg>
